@@ -20,7 +20,7 @@ void ASpawnSome::BeginPlay()
 {
 	Super::BeginPlay();
 	
-
+	//aa
 	UWorld* const World = GetWorld();
 	FActorSpawnParameters spawnParams;
 	spawnParams.Owner = this;								// Who spawned this object
